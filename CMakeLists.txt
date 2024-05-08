@@ -10,7 +10,7 @@ project(
 set(HEADERS
   ${CMAKE_CURRENT_SOURCE_DIR}/include/stb_image_helper/stb_image.h
   ${CMAKE_CURRENT_SOURCE_DIR}/include/stb_image_helper/stb_image_write.h
-  ${CMAKE_CURRENT_SOURCE_DIR}/include/stb_image_helper/stb_image_resize.h)
+  ${CMAKE_CURRENT_SOURCE_DIR}/include/stb_image_helper/stb_image_resize2.h)
 add_library(${PROJECT_NAME} INTERFACE ${HEADERS})
 
 # target_sources(${PROJECT_NAME})
